@@ -1,0 +1,194 @@
+[11:01:10.971100 DEBUG] [openstudio.workflow.OSWorkflow] Removing existing run directory: C:/Users/GF/AppData/Local/Temp/osmodel-f070-2219-9329-4249-1716087661-0/resources/run
+[11:01:10.972097 DEBUG] [openstudio.workflow.OSWorkflow] Registering that the workflow has started with the adapter
+[11:01:10.973095 DEBUG] [openstudio.workflow.OSWorkflow] Initialization - selected = true
+[11:01:10.974091 DEBUG] [openstudio.workflow.OSWorkflow] The root_dir for the datapoint is C:/Users/GF/AppData/Local/Temp/osmodel-f070-2219-9329-4249-1716087661-0/resources
+[11:01:10.974091 DEBUG] [openstudio.workflow.OSWorkflow] Removing existing generated files directory: C:/Users/GF/AppData/Local/Temp/osmodel-f070-2219-9329-4249-1716087661-0/resources/generated_files
+[11:01:10.975089 DEBUG] [openstudio.workflow.OSWorkflow] Creating generated files directory: C:/Users/GF/AppData/Local/Temp/osmodel-f070-2219-9329-4249-1716087661-0/resources/generated_files
+[11:01:10.975089 DEBUG] [openstudio.workflow.OSWorkflow] Finding and loading the seed file
+[11:01:10.982070 INFO] [openstudio.worklow.Util] Loading OSM model
+[11:01:10.982070 INFO] [openstudio.worklow.Util] Reading in OSM model C:/Users/GF/AppData/Local/Temp/osmodel-f070-2219-9329-4249-1716087661-0/6-10squ_house.osm
+[11:01:10.999025 DEBUG] [openstudio.osversion.VersionTranslator] Starting translation from Version 3.7.0.
+[11:01:11.048892 DEBUG] [openstudio.osversion.VersionTranslator] Initial model has 1002 objects.
+[11:01:11.049888 DEBUG] [openstudio.osversion.VersionTranslator] Final model has 1002 objects in IDF form.
+[11:01:11.077814 DEBUG] [utilities.idf.Workspace] Workspace::isValid called.
+[11:01:11.193506 DEBUG] [openstudio.osversion.VersionTranslator] Final model has 1002 objects in Model form.
+[11:01:11.200492 DEBUG] [openstudio.workflow.OSWorkflow] Initialize the weather file from osw
+[11:01:11.200492 DEBUG] [openstudio.workflow.OSWorkflow] Search for weather file defined by osw THA_Bangkok.484560_IWEC.epw
+[11:01:11.215446 DEBUG] [openstudio.EpwFile] No Daylightings Saving start Date
+[11:01:11.219466 WARN] [openstudio.EpwFile] Successive data points (1983-Jan-31 to 1992-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'C:/Users/GF/AppData/Local/Temp/osmodel-f070-2219-9329-4249-1716087661-0/resources/files/THA_Bangkok.484560_IWEC.epw'. Data will be treated as typical (TMY)
+[11:01:11.260327 INFO] [openstudio.XMLValidator] Treating schema as a regular XSD
+[11:01:11.276759 DEBUG] [openstudio.workflow.OSWorkflow] OpenStudioMeasures - selected = true
+[11:01:11.276759 INFO] [openstudio.workflow.OSWorkflow] Beginning to execute OpenStudio Measures
+[11:01:11.276759 DEBUG] [openstudio.workflow.OSWorkflow] Finding measures of type ModelMeasure
+[11:01:11.276759 INFO] [openstudio.workflow.OSWorkflow] Finished applying OpenStudio Measures.
+[11:01:11.341591 DEBUG] [openstudio.workflow.OSWorkflow] Translator - selected = true
+[11:01:11.344584 INFO] [openstudio.workflow.OSWorkflow] Beginning the translation to IDF
+[11:01:11.357549 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Vending - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.358579 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - BreakRoom - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.359543 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - IT_Room - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.359543 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Lobby - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.359543 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - ClosedOffice - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.360567 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - OpenOffice - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.360567 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Conference - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.360567 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Corridor - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.361571 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - WholeBuilding - Md Office - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.361571 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Elec/MechRoom - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.362536 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - IT_Room - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.362536 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - WholeBuilding - Sm Office - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.363534 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - PrintRoom - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.363534 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Restroom - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.363534 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Stair - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.364532 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Corridor - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.364532 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Storage - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.365528 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - PrintRoom - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.365528 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - WholeBuilding - Lg Office - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.366525 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Vending - CZ1-3 is not referenced by any space, it will not be translated.
+[11:01:11.366525 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - BreakRoom - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.367556 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - ClosedOffice - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.367556 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Conference - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.368520 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - WholeBuilding - Sm Office - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.368520 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - WholeBuilding - Md Office - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.368520 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Elec/MechRoom - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.369517 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Lobby - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.369517 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Restroom - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.370515 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Stair - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.370515 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - Storage - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.370515 INFO] [openstudio.energyplus.ForwardTranslator] SpaceType 189.1-2009 - Office - WholeBuilding - Lg Office - CZ4-8 is not referenced by any space, it will not be translated.
+[11:01:11.433226 WARN] [openstudio.energyplus.ForwardTranslator] Object of type 'OS:ShadingControl' and named 'Shading Control 1' does not control any SubSurfaces, it will not be translated
+[11:01:11.478030 WARN] [openstudio.energyplus.ForwardTranslator] OS_ProgramControl is not currently translated
+[11:01:11.505986 WARN] [utilities.idf.WorkspaceObject] Object of type 'Schedule:Constant' and named 'Always Off Discrete', points to an object named OnOff from field 1, but that object cannot be located.
+[11:01:11.506952 WARN] [utilities.idf.WorkspaceObject] Object of type 'Schedule:Constant' and named 'Always On Continuous', points to an object named Fractional 1 from field 1, but that object cannot be located.
+[11:01:11.510942 INFO] [openstudio.workflow.OSWorkflow] Successfully translated to IDF
+[11:01:11.510942 DEBUG] [openstudio.workflow.OSWorkflow] EnergyPlusMeasures - selected = true
+[11:01:11.510942 INFO] [openstudio.workflow.OSWorkflow] Beginning to execute EnergyPlus Measures.
+[11:01:11.510942 DEBUG] [openstudio.workflow.OSWorkflow] Finding measures of type EnergyPlusMeasure
+[11:01:11.510942 INFO] [openstudio.workflow.OSWorkflow] Finished applying EnergyPlus Measures.
+[11:01:11.512971 DEBUG] [openstudio.workflow.OSWorkflow] PreProcess - selected = true
+[11:01:11.539898 INFO] [openstudio.workflow.OSWorkflow] Beginning to collect output requests from Reporting measures.
+[11:01:11.540862 DEBUG] [openstudio.workflow.OSWorkflow] Finding measures of type ReportingMeasure
+[11:01:11.540862 DEBUG] [openstudio.workflow.OSWorkflow] Running step 0
+[11:01:11.540862 DEBUG] [openstudio.workflow.OSWorkflow] Find model's weather file and update LastEpwFilePath
+[11:01:11.540862 DEBUG] [openstudio.workflow.OSWorkflow] Search for weather file C:/Users/GF/AppData/Local/Temp/osmodel-f070-2219-9329-4249-1716087661-0/resources/files/THA_Bangkok.484560_IWEC.epw
+[11:01:11.541894 DEBUG] [openstudio.workflow.OSWorkflow] Creating run directory for measure in 'C:/Users/GF/AppData/Local/Temp/osmodel-f070-2219-9329-4249-1716087661-0/resources/run/000_OpenStudioResults'
+[11:01:11.546846 INFO] [openstudio.XMLValidator] Treating schema as a regular XSD
+[11:01:11.564797 DEBUG] [openstudio.workflow.OSWorkflow] Found OpenStudioResults at primaryScriptPath: 'C:/Users/GF/AppData/Local/Temp/osmodel-f070-2219-9329-4249-1716087661-0/resources/measures/OpenStudioResults/measure.rb'
+[11:01:11.564797 DEBUG] [openstudio.workflow.OSWorkflow] Class Name: OpenStudioResults
+[11:01:11.565795 DEBUG] [openstudio.workflow.OSWorkflow] Measure Script Path: C:/Users/GF/AppData/Local/Temp/osmodel-f070-2219-9329-4249-1716087661-0/resources/measures/OpenStudioResults/measure.rb
+[11:01:11.565795 DEBUG] [openstudio.workflow.OSWorkflow] Measure Type: ReportingMeasure
+[11:01:11.565795 DEBUG] [openstudio.workflow.OSWorkflow] Measure Language: Ruby
+[11:01:11.565795 DEBUG] [ApplicationPathHelpers] getOpenStudioModule, szPath = 'C:\openstudioapplication-1.7.1\bin\openstudiolib.dll'
+[11:01:11.565795 DEBUG] [PathHelpers] completeAndNormalize: result = C:/openstudioapplication-1.7.1/bin/openstudiolib.dll
+[11:01:11.566792 DEBUG] [ApplicationPathHelpers] getOpenStudioModule, found 'C:/openstudioapplication-1.7.1/bin/openstudiolib.dll'
+[11:01:21.868889 DEBUG] [openstudio.workflow.OSWorkflow] measure->name()= 'OpenStudio Results'
+[11:01:21.868889 DEBUG] [openstudio.workflow.OSWorkflow] Current step has 0 arguments
+[11:01:21.874874 INFO] [openstudio.standards.standard] Using OpenStudio Standards version 0.5.0 with template 90.1-2013.
+[11:01:21.874874 INFO] [openstudio.standards.standard] Loading OpenStudio Standards data for 90.1-2013
+[11:01:21.874874 DEBUG] [openstudio.standards.standard] Loading JSON files from OpenStudio CLI embedded directory :/ruby/2.7.0/gems/openstudio-standards-0.5.0/lib/openstudio-standards/standards/ashrae_90_1
+[11:01:21.879861 DEBUG] [openstudio.standards.standard] Adding hvac_inference from Any.hvac_inference.json
+[11:01:21.879861 DEBUG] [openstudio.standards.standard] Adding size_category from Any.size_category.json
+[11:01:21.879861 DEBUG] [openstudio.standards.standard] Adding climate_zone_sets from ashrae_90_1.climate_zone_sets.json
+[11:01:21.879861 DEBUG] [openstudio.standards.standard] Adding climate_zones from ashrae_90_1.climate_zones.json
+[11:01:21.881855 DEBUG] [openstudio.standards.standard] Adding constructions from ashrae_90_1.constructions.json
+[11:01:21.894820 DEBUG] [openstudio.standards.standard] Adding curves from ashrae_90_1.curves.json
+[11:01:21.894820 DEBUG] [openstudio.standards.standard] Adding entryways from ashrae_90_1.entryways.json
+[11:01:21.895818 DEBUG] [openstudio.standards.standard] Adding fans from ashrae_90_1.fans.json
+[11:01:21.928761 DEBUG] [openstudio.standards.standard] Adding materials from ashrae_90_1.materials.json
+[11:01:21.928761 DEBUG] [openstudio.standards.standard] Adding parking from ashrae_90_1.parking.json
+[11:01:22.099304 DEBUG] [openstudio.standards.standard] Adding schedules from ashrae_90_1.schedules.json
+[11:01:22.101299 DEBUG] [openstudio.standards.standard] Loading JSON files from OpenStudio CLI embedded directory :/ruby/2.7.0/gems/openstudio-standards-0.5.0/lib/openstudio-standards/standards/ashrae_90_1/ashrae_90_1_2013
+[11:01:22.115261 DEBUG] [openstudio.standards.standard] Adding boilers from ashrae_90_1_2013.boilers.json
+[11:01:22.117256 DEBUG] [openstudio.standards.standard] Adding chillers from ashrae_90_1_2013.chillers.json
+[11:01:22.137172 DEBUG] [openstudio.standards.standard] Adding construction_properties from ashrae_90_1_2013.construction_properties.json
+[11:01:22.141161 DEBUG] [openstudio.standards.standard] Adding construction_sets from ashrae_90_1_2013.construction_sets.json
+[11:01:22.142159 DEBUG] [openstudio.standards.standard] Adding economizers from ashrae_90_1_2013.economizers.json
+[11:01:22.143156 DEBUG] [openstudio.standards.standard] Adding elevators from ashrae_90_1_2013.elevators.json
+[11:01:22.146149 DEBUG] [openstudio.standards.standard] Adding energy_recovery from ashrae_90_1_2013.energy_recovery.json
+[11:01:22.146149 DEBUG] [openstudio.standards.standard] Adding exterior_lighting from ashrae_90_1_2013.ext_ltg.json
+[11:01:22.146149 DEBUG] [openstudio.standards.standard] Adding furnaces from ashrae_90_1_2013.furnaces.json
+[11:01:22.167092 DEBUG] [openstudio.standards.standard] Adding ground_temperatures from ashrae_90_1_2013.ground_temperatures.json
+[11:01:22.168089 DEBUG] [openstudio.standards.standard] Adding heat_pumps from ashrae_90_1_2013.heat_pumps.json
+[11:01:22.169087 DEBUG] [openstudio.standards.standard] Adding heat_pumps_heating from ashrae_90_1_2013.heat_pumps_heating.json
+[11:01:22.169087 DEBUG] [openstudio.standards.standard] Adding heat_rejection from ashrae_90_1_2013.heat_rejection.json
+[11:01:22.169087 DEBUG] [openstudio.standards.standard] Adding motors from ashrae_90_1_2013.motors.json
+[11:01:22.172079 DEBUG] [openstudio.standards.standard] Adding prototype_inputs from ashrae_90_1_2013.prototype_inputs.json
+[11:01:22.173076 DEBUG] [openstudio.standards.standard] Adding refrigerated_cases from ashrae_90_1_2013.ref_cases.json
+[11:01:22.173076 DEBUG] [openstudio.standards.standard] Adding refrigeration_system_lineup from ashrae_90_1_2013.ref_lnup.json
+[11:01:22.173076 DEBUG] [openstudio.standards.standard] Adding refrigeration_compressors from ashrae_90_1_2013.refrigeration_compressors.json
+[11:01:22.173076 DEBUG] [openstudio.standards.standard] Adding refrigeration_condenser from ashrae_90_1_2013.refrigeration_condenser.json
+[11:01:22.174073 DEBUG] [openstudio.standards.standard] Adding refrigeration_system from ashrae_90_1_2013.refrigeration_system.json
+[11:01:22.175071 DEBUG] [openstudio.standards.standard] Adding refrigeration_walkins from ashrae_90_1_2013.refrigeration_walkins.json
+[11:01:22.194020 DEBUG] [openstudio.standards.standard] Adding space_types from ashrae_90_1_2013.spc_typ.json
+[11:01:22.195017 DEBUG] [openstudio.standards.standard] Adding unitary_acs from ashrae_90_1_2013.unitary_acs.json
+[11:01:22.195017 DEBUG] [openstudio.standards.standard] Adding water_heaters from ashrae_90_1_2013.water_heaters.json
+[11:01:22.195017 DEBUG] [openstudio.standards.standard] Adding water_source_heat_pumps from ashrae_90_1_2013.water_source_heat_pumps.json
+[11:01:22.195017 DEBUG] [openstudio.standards.standard] Adding water_source_heat_pumps_heating from ashrae_90_1_2013.water_source_heat_pumps_heating.json
+[11:01:22.206048 DEBUG] [openstudio.workflow.OSWorkflow] argumentMap={"air_loops_detail_section": "true", "annual_overview_section": "true", "building_summary_section": "true", "cost_summary_section": "true", "envelope_section_section": "true", "exterior_light_section": "true", "hvac_load_profile": "true", "interior_lighting_section": "true", "measure_warning_section": "true", "monthly_overview_section": "true", "outdoor_air_section": "true", "plant_loops_detail_section": "true", "plug_loads_section": "true", "reg_monthly_details": "false", "schedules_overview_section": "true", "source_energy_section": "true", "space_type_breakdown_section": "true", "space_type_details_section": "true", "units": "IP", "utility_bills_rates_section": "true", "water_use_section": "true", "zone_condition_section": "true", "zone_equipment_detail_section": "true", "zone_summary_section": "true"}
+[11:01:22.206048 DEBUG] [openstudio.workflow.OSWorkflow] Calling measure.energyPlusOutputRequests for 'OpenStudioResults'
+[11:01:22.208043 INFO] [openstudio.standards.standard] Using OpenStudio Standards version 0.5.0 with template 90.1-2013.
+[11:01:22.208043 INFO] [openstudio.standards.standard] Loading OpenStudio Standards data for 90.1-2013
+[11:01:22.208043 DEBUG] [openstudio.standards.standard] Loading JSON files from OpenStudio CLI embedded directory :/ruby/2.7.0/gems/openstudio-standards-0.5.0/lib/openstudio-standards/standards/ashrae_90_1
+[11:01:22.213032 DEBUG] [openstudio.standards.standard] Adding hvac_inference from Any.hvac_inference.json
+[11:01:22.213032 DEBUG] [openstudio.standards.standard] Adding size_category from Any.size_category.json
+[11:01:22.213032 DEBUG] [openstudio.standards.standard] Adding climate_zone_sets from ashrae_90_1.climate_zone_sets.json
+[11:01:22.213032 DEBUG] [openstudio.standards.standard] Adding climate_zones from ashrae_90_1.climate_zones.json
+[11:01:22.216022 DEBUG] [openstudio.standards.standard] Adding constructions from ashrae_90_1.constructions.json
+[11:01:22.227990 DEBUG] [openstudio.standards.standard] Adding curves from ashrae_90_1.curves.json
+[11:01:22.227990 DEBUG] [openstudio.standards.standard] Adding entryways from ashrae_90_1.entryways.json
+[11:01:22.227990 DEBUG] [openstudio.standards.standard] Adding fans from ashrae_90_1.fans.json
+[11:01:22.262928 DEBUG] [openstudio.standards.standard] Adding materials from ashrae_90_1.materials.json
+[11:01:22.263895 DEBUG] [openstudio.standards.standard] Adding parking from ashrae_90_1.parking.json
+[11:01:22.410501 DEBUG] [openstudio.standards.standard] Adding schedules from ashrae_90_1.schedules.json
+[11:01:22.410501 DEBUG] [openstudio.standards.standard] Loading JSON files from OpenStudio CLI embedded directory :/ruby/2.7.0/gems/openstudio-standards-0.5.0/lib/openstudio-standards/standards/ashrae_90_1/ashrae_90_1_2013
+[11:01:22.414491 DEBUG] [openstudio.standards.standard] Adding boilers from ashrae_90_1_2013.boilers.json
+[11:01:22.415488 DEBUG] [openstudio.standards.standard] Adding chillers from ashrae_90_1_2013.chillers.json
+[11:01:22.424485 DEBUG] [openstudio.standards.standard] Adding construction_properties from ashrae_90_1_2013.construction_properties.json
+[11:01:22.426458 DEBUG] [openstudio.standards.standard] Adding construction_sets from ashrae_90_1_2013.construction_sets.json
+[11:01:22.426458 DEBUG] [openstudio.standards.standard] Adding economizers from ashrae_90_1_2013.economizers.json
+[11:01:22.426458 DEBUG] [openstudio.standards.standard] Adding elevators from ashrae_90_1_2013.elevators.json
+[11:01:22.427456 DEBUG] [openstudio.standards.standard] Adding energy_recovery from ashrae_90_1_2013.energy_recovery.json
+[11:01:22.428453 DEBUG] [openstudio.standards.standard] Adding exterior_lighting from ashrae_90_1_2013.ext_ltg.json
+[11:01:22.428453 DEBUG] [openstudio.standards.standard] Adding furnaces from ashrae_90_1_2013.furnaces.json
+[11:01:22.434437 DEBUG] [openstudio.standards.standard] Adding ground_temperatures from ashrae_90_1_2013.ground_temperatures.json
+[11:01:22.450396 DEBUG] [openstudio.standards.standard] Adding heat_pumps from ashrae_90_1_2013.heat_pumps.json
+[11:01:22.451393 DEBUG] [openstudio.standards.standard] Adding heat_pumps_heating from ashrae_90_1_2013.heat_pumps_heating.json
+[11:01:22.451393 DEBUG] [openstudio.standards.standard] Adding heat_rejection from ashrae_90_1_2013.heat_rejection.json
+[11:01:22.451393 DEBUG] [openstudio.standards.standard] Adding motors from ashrae_90_1_2013.motors.json
+[11:01:22.454385 DEBUG] [openstudio.standards.standard] Adding prototype_inputs from ashrae_90_1_2013.prototype_inputs.json
+[11:01:22.455383 DEBUG] [openstudio.standards.standard] Adding refrigerated_cases from ashrae_90_1_2013.ref_cases.json
+[11:01:22.455383 DEBUG] [openstudio.standards.standard] Adding refrigeration_system_lineup from ashrae_90_1_2013.ref_lnup.json
+[11:01:22.455383 DEBUG] [openstudio.standards.standard] Adding refrigeration_compressors from ashrae_90_1_2013.refrigeration_compressors.json
+[11:01:22.456380 DEBUG] [openstudio.standards.standard] Adding refrigeration_condenser from ashrae_90_1_2013.refrigeration_condenser.json
+[11:01:22.456380 DEBUG] [openstudio.standards.standard] Adding refrigeration_system from ashrae_90_1_2013.refrigeration_system.json
+[11:01:22.457377 DEBUG] [openstudio.standards.standard] Adding refrigeration_walkins from ashrae_90_1_2013.refrigeration_walkins.json
+[11:01:22.475360 DEBUG] [openstudio.standards.standard] Adding space_types from ashrae_90_1_2013.spc_typ.json
+[11:01:22.476353 DEBUG] [openstudio.standards.standard] Adding unitary_acs from ashrae_90_1_2013.unitary_acs.json
+[11:01:22.476353 DEBUG] [openstudio.standards.standard] Adding water_heaters from ashrae_90_1_2013.water_heaters.json
+[11:01:22.476353 DEBUG] [openstudio.standards.standard] Adding water_source_heat_pumps from ashrae_90_1_2013.water_source_heat_pumps.json
+[11:01:22.476353 DEBUG] [openstudio.standards.standard] Adding water_source_heat_pumps_heating from ashrae_90_1_2013.water_source_heat_pumps_heating.json
+[11:01:22.485335 DEBUG] [openstudio.workflow.OSWorkflow] Finished measure.energyPlusOutputRequests for 'OpenStudioResults', 11 output requests added
+[11:01:22.485335 INFO] [openstudio.workflow.OSWorkflow] Finished collecting output requests from Reporting measures.
+[11:01:22.485335 INFO] [openstudio.workflow.OSWorkflow] Running EnergyPlus Preprocess
+[11:01:22.488322 INFO] [openstudio.workflow.OSWorkflow] Finished preprocess job for EnergyPlus simulation
+[11:01:22.520209 DEBUG] [openstudio.workflow.OSWorkflow] Saved final IDF as C:/Users/GF/AppData/Local/Temp/osmodel-f070-2219-9329-4249-1716087661-0/resources/run/in.idf
+[11:01:22.520209 DEBUG] [openstudio.workflow.OSWorkflow] EnergyPlus - selected = true
+[11:01:22.521218 DEBUG] [openstudio.OSWorkflow.prepareEnergyPlusDir] Original Directory: C:/openstudioapplication-1.7.1/bin
+[11:01:22.521218 DEBUG] [openstudio.OSWorkflow.prepareEnergyPlusDir] Changing To run directory: C:/Users/GF/AppData/Local/Temp/osmodel-f070-2219-9329-4249-1716087661-0/resources/run
+[11:01:22.523200 DEBUG] [ApplicationPathHelpers] getOpenStudioModule, szPath = 'C:\openstudioapplication-1.7.1\bin\openstudiolib.dll'
+[11:01:22.523200 DEBUG] [PathHelpers] completeAndNormalize: result = C:/openstudioapplication-1.7.1/bin/openstudiolib.dll
+[11:01:22.523200 DEBUG] [ApplicationPathHelpers] getOpenStudioModule, found 'C:/openstudioapplication-1.7.1/bin/openstudiolib.dll'
+[11:01:22.524198 DEBUG] [ApplicationPathHelpers] Searching for EnergyPlus in 'C:/openstudioapplication-1.7.1/EnergyPlus/energyplus.exe'
+[11:01:22.524198 DEBUG] [PathHelpers] completeAndNormalize: result = C:/openstudioapplication-1.7.1/EnergyPlus/energyplus.exe
+[11:01:22.524198 DEBUG] [ApplicationPathHelpers] Found EnergyPlus at 'C:/openstudioapplication-1.7.1/EnergyPlus/energyplus.exe'
+[11:01:22.525196 DEBUG] [PathHelpers] completeAndNormalize: result = C:/openstudioapplication-1.7.1/EnergyPlus/energyplus.exe
+[11:01:22.553121 INFO] [openstudio.OSWorkflow.prepareEnergyPlusDir] EnergyPlus executable path is C:/openstudioapplication-1.7.1/EnergyPlus/energyplus.exe
+[11:01:22.553121 INFO] [openstudio.OSWorkflow.prepareEnergyPlusDir] ExpandObjects executable path is C:/openstudioapplication-1.7.1/EnergyPlus/ExpandObjects.exe
+[11:01:22.553121 INFO] [openstudio.workflow.OSWorkflow] Starting simulation in run directory: C:/Users/GF/AppData/Local/Temp/osmodel-f070-2219-9329-4249-1716087661-0/resources/run
+[11:01:22.585066 INFO] [openstudio.workflow.OSWorkflow] Running command 'C:/openstudioapplication-1.7.1\EnergyPlus\ExpandObjects.exe'
+[11:01:22.841609 INFO] [openstudio.workflow.OSWorkflow] Running command '"C:/openstudioapplication-1.7.1\EnergyPlus\energyplus.exe" in.idf'
+[11:01:23.941844 INFO] [openstudio.workflow.OSWorkflow] EnergyPlus returned '1'
+[11:01:23.942842 WARN] [openstudio.workflow.OSWorkflow] EnergyPlus returned a non-zero exit code (1). Check the stdout-energyplus log
+[11:01:23.944836 INFO] [openstudio.OSWorkflow.prepareEnergyPlusDir] Removing any copied EnergyPlus files
+[11:01:23.946832 DEBUG] [openstudio.OSWorkflow.prepareEnergyPlusDir] Changing Current Directory back to: C:/openstudioapplication-1.7.1/bin
+[11:01:23.946832 FATAL] [openstudio.workflow.OSWorkflow] EnergyPlus Terminated with a Fatal Error. Check eplusout.err log.
+[11:01:23.947828 ERROR] [openstudio.workflow.OSWorkflow] Found error in state 'EnergyPlus' with message: 'D:\OSN\src\workflow\RunEnergyPlus.cpp@291 : EnergyPlus Terminated with a Fatal Error. Check eplusout.err log.'
+[11:01:24.099282 INFO] [openstudio.XMLValidator] Treating schema as a regular XSD

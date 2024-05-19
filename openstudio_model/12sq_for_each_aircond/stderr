@@ -1,0 +1,2 @@
+Failed to run workflow. Last Error:
+  Found error in state 'EnergyPlus' with message: 'D:\OSN\src\workflow\RunEnergyPlus.cpp@291 : EnergyPlus Terminated with a Fatal Error. Check eplusout.err log.'

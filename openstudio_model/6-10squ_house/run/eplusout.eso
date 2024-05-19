@@ -1,0 +1,30 @@
+Program Version,EnergyPlus, Version 23.2.0-7636e6b3e9, YMD=2024.05.19 11:01
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Report Variables Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Report Variables Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Report Variables Requested
+6,1,Calendar Year of Simulation[] ! When Annual Report Variables Requested
+7,1,Environment,Site Outdoor Air Drybulb Temperature [C] !Hourly
+8,9,Environment,Site Outdoor Air Drybulb Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+327,1,ROOM 1,Zone Electric Equipment Electricity Rate [W] !Hourly
+328,1,ROOM 1,Zone Electric Equipment Electricity Energy [J] !Hourly
+329,1,ROOM 2,Zone Electric Equipment Electricity Rate [W] !Hourly
+330,1,ROOM 2,Zone Electric Equipment Electricity Energy [J] !Hourly
+331,1,ROOM 3,Zone Electric Equipment Electricity Rate [W] !Hourly
+332,1,ROOM 3,Zone Electric Equipment Electricity Energy [J] !Hourly
+333,1,ROOM 1,Zone Mean Air Temperature [C] !Hourly
+334,1,ROOM 2,Zone Mean Air Temperature [C] !Hourly
+335,1,ROOM 3,Zone Mean Air Temperature [C] !Hourly
+385,1,ROOM 1,Zone Air Temperature [C] !Hourly
+386,1,ROOM 1,Zone Air Humidity Ratio [] !Hourly
+387,1,ROOM 1,Zone Air Relative Humidity [%] !Hourly
+522,1,ROOM 1,Zone Thermostat Cooling Setpoint Temperature [C] !Hourly
+523,1,ROOM 2,Zone Air Temperature [C] !Hourly
+524,1,ROOM 2,Zone Air Humidity Ratio [] !Hourly
+525,1,ROOM 2,Zone Air Relative Humidity [%] !Hourly
+588,1,ROOM 2,Zone Thermostat Cooling Setpoint Temperature [C] !Hourly
+589,1,ROOM 3,Zone Air Temperature [C] !Hourly
+590,1,ROOM 3,Zone Air Humidity Ratio [] !Hourly
+591,1,ROOM 3,Zone Air Relative Humidity [%] !Hourly
+654,1,ROOM 3,Zone Thermostat Cooling Setpoint Temperature [C] !Hourly

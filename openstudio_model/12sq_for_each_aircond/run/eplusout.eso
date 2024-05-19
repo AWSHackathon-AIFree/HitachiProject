@@ -1,0 +1,26 @@
+Program Version,EnergyPlus, Version 23.2.0-7636e6b3e9, YMD=2024.05.18 13:21
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Report Variables Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Report Variables Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Report Variables Requested
+6,1,Calendar Year of Simulation[] ! When Annual Report Variables Requested
+7,9,Environment,Site Outdoor Air Drybulb Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+8,1,ROOM 1,Zone Outdoor Air Drybulb Temperature [C] !Hourly
+9,1,ROOM 2,Zone Outdoor Air Drybulb Temperature [C] !Hourly
+10,1,ROOM 3,Zone Outdoor Air Drybulb Temperature [C] !Hourly
+329,1,ROOM 1,Zone Electric Equipment Electricity Energy [J] !Hourly
+330,1,ROOM 2,Zone Electric Equipment Electricity Energy [J] !Hourly
+331,1,ROOM 3,Zone Electric Equipment Electricity Energy [J] !Hourly
+406,1,ROOM 1,Zone Air Temperature [C] !Hourly
+407,1,ROOM 1,Zone Air Humidity Ratio [] !Hourly
+408,1,ROOM 1,Zone Air Relative Humidity [%] !Hourly
+543,1,ROOM 1,Zone Thermostat Cooling Setpoint Temperature [C] !Hourly
+544,1,ROOM 2,Zone Air Temperature [C] !Hourly
+545,1,ROOM 2,Zone Air Humidity Ratio [] !Hourly
+546,1,ROOM 2,Zone Air Relative Humidity [%] !Hourly
+609,1,ROOM 2,Zone Thermostat Cooling Setpoint Temperature [C] !Hourly
+610,1,ROOM 3,Zone Air Temperature [C] !Hourly
+611,1,ROOM 3,Zone Air Humidity Ratio [] !Hourly
+612,1,ROOM 3,Zone Air Relative Humidity [%] !Hourly
+675,1,ROOM 3,Zone Thermostat Cooling Setpoint Temperature [C] !Hourly

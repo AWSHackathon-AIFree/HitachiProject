@@ -1,0 +1,32 @@
+{
+   "completed_at" : "20240519T030124Z",
+   "completed_status" : "Fail",
+   "created_at" : "20240517T061052Z",
+   "current_step" : 0,
+   "eplusout_err" : "Program Version,EnergyPlus, Version 23.2.0-7636e6b3e9, YMD=2024.05.19 11:01,\n   ** Warning ** Timestep: Requested number (1) is less than the suggested minimum of 4.\n   **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.\n   ************* Beginning Zone Sizing Calculations\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS OFF DISCRETE\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS ON CONTINUOUS\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** GetHTSurfaceData: Surfaces with interface to Ground found but no \"Ground Temperatures\" were input.\n   **   ~~~   ** Found first in surface=SURFACE 1\n   **   ~~~   ** Defaults, constant throughout the year of (18.0) will be used.\n   ** Warning ** CheckUsedConstructions: There are 23 nominally unused constructions in input.\n   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;\n   ************* Beginning System Sizing Calculations\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 1\"\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"ROOM 1\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 2\"\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"ROOM 2\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** Sizing: Coil:Cooling:DX:SingleSpeed \"1 SPD DX CLG COIL 7\": Rated air volume flow rate per watt of rated total cooling capacity is out of range.\n   **   ~~~   ** Min Rated Vol Flow Per Watt=[4.027E-005], Rated Vol Flow Per Watt=[1.711E-005], Max Rated Vol Flow Per Watt=[6.041E-005]. See Input Output Reference Manual for valid range.\n   ** Severe  ** Coil:Cooling:DX:SingleSpeed \"1 SPD DX CLG COIL 7\" -- negative coil bypass factor calculated.\n   **   ~~~   **  During Warmup, Environment=BANGKOK ANN CLG .4% CONDNS DB=>MWB, at Simulation time=04/21 00:00 - 01:00\n   **  Fatal  ** Coil:Cooling:DX:SingleSpeed \"1 SPD DX CLG COIL 7\" Errors found in calculating coil bypass factors\n   ...Summary of Errors that led to program termination:\n   ..... Reference severe error count=1\n   ..... Last severe error=Coil:Cooling:DX:SingleSpeed \"1 SPD DX CLG COIL 7\" -- negative coil bypass factor calculated.\n   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).\n   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.\n   *************\n   ************* ===== Final Error Summary =====\n   ************* The following error categories occurred.  Consider correcting or noting.\n   ************* Nominally Unused Constructions\n   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause\n   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm\n   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).\n   *************\n   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Sizing Error Summary. During Sizing: 4 Warning; 0 Severe Errors.\n   ************* EnergyPlus Terminated--Fatal Error Detected. 8 Warning; 1 Severe Errors; Elapsed Time=00hr 00min  0.34sec\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+   "file_paths" : 
+   [
+      "C:/Users/GF/AppData/Local/Temp/osmodel-f070-2219-9329-4249-1716087661-0/resources/generated_files",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "F44D4787",
+   "run_options" : null,
+   "seed_file" : "../6-10squ_house.osm",
+   "started_at" : "20240519T030111Z",
+   "steps" : 
+   [
+      {
+         "arguments" : {},
+         "description" : "This measure creates high level tables and charts pulling both from model inputs and EnergyPlus results. It has building level information as well as detail on space types, thermal zones, HVAC systems, envelope characteristics, and economics. Click the heading above a chart to view a table of the chart data.",
+         "measure_dir_name" : "OpenStudioResults",
+         "modeler_description" : "For the most part consumption data comes from the tabular EnergyPlus results, however there are a few requests added for time series results. Space type and loop details come from the OpenStudio model. The code for this is modular, making it easy to use as a template for your own custom reports. The structure of the report uses bootstrap, and the graphs use dimple js. The new measure warning section will show warnings generated by upstream measures. It will not show forward translation warnings, EnergyPlus warnings, or warnings that might be reported by this measure.",
+         "name" : "OpenStudio Results"
+      }
+   ],
+   "updated_at" : "20240519T030124Z",
+   "weather_file" : "THA_Bangkok.484560_IWEC.epw"
+}
